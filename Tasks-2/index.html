@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashutosh Jha – Portfolio</title>
+
+  <!-- ==== Fonts & Icons ==== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Your main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Smooth anchor scrolling -->
+  <style>html{scroll-behavior:smooth}</style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- ========= HEADER / HERO ========= -->
+    <header id="home">
+      <nav>
+        <div class="logo">A</div>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Works</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Hi, I’m Ashutosh Jha.</h1>
+          <p>Full‑Stack Developer & Graphic Designer.</p>
+          <a href="#contact" class="btn">My Story</a>
+        </div>
+        <div class="hero-image">
+          <img src="image/portfolio_image.jpg" alt="Ashutosh Jha portrait" />
+        </div>
+      </div>
+    </header>
+
+    <!-- ========= SERVICES / STATS ========= -->
+    <section id="services" class="stats-section">
+      <div class="info-container">
+        <div class="contact-box">
+          <h3>— Services</h3>
+          <h2>Any Type Of Query & Discussion.</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+          <a href="mailto:Ashutosh1085@gmail.com" class="email-link">Ashutosh1085@gmail.com →</a>
+        </div>
+
+        <div class="quote-box">
+          <p class="quote">
+            You can’t use up creativity, the more you use, the more you have in your significant mind.
+          </p>
+          <div class="stats">
+            <div>
+              <h2>2</h2>
+              <p>Years of Experience.</p>
+            </div>
+            <div>
+              <h2>10</h2>
+              <p>Satisfied Clients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card active">
+          <div class="icon">🧩</div>
+          <h3>Graphic Designer.</h3>
+          <p>12 Projects</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">🎨</div>
+          <h3>UI/UX Designer.</h3>
+          <p>6 Projects</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">💻</div>
+          <h3>Full Stack Developer.</h3>
+          <p>15 Projects</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= PROJECTS ========= -->
+    <section id="projects" class="projects">
+      <div class="intro">
+        <h2>All Creative Works,<br />Selected projects.</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+        <a href="#">Explore more →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span>SaaS Platform.</span>
+          <small>Landing Page, Development</small>
+        </div>
+        <img src="image/landing image.jpg" alt="SaaS platform landing page" />
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span>Calculator App.</span>
+          <small>Utility, Development</small>
+        </div>
+        <img src="image/Calculator.png" alt="Calculator web app" />
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span>Food Delivery Website.</span>
+          <small>e‑Commerce, Development</small>
+        </div>
+        <img src="image/food website.png" alt="Food delivery website" />
+      </div>
+    </section>
+
+    <!-- ========= BLOG + TESTIMONIAL ========= -->
+    <section id="blog" class="blog-testimonial-section">
+      <div class="blog">
+        <h4>— Blog</h4>
+        <h2>What’s new?<br />My blog and news.</h2>
+        <ul class="blog-list">
+          <li><span>Feb 26 · Blog</span> <a href="#">Let this be a lesson to you</a></li>
+          <li><span>Feb 14 · Blog</span> <a href="#">How do you use time tracking for projects?</a></li>
+          <li><span>Feb 9  · Blog</span> <a href="#">Ego and empathy in design</a></li>
+        </ul>
+      </div>
+
+      <div class="testimonial">
+        <img src="image/Testimonialimage.jpg" alt="Client photo" class="testimonial-image" />
+        <blockquote>
+          “Amazing! At vero eos et accusamus et iusto odio dignissimos ducimus …”
+        </blockquote>
+        <div class="author">
+          <strong>Jared Warner</strong>
+          <span>CEO of BeServer</span>
+        </div>
+        <div class="testimonial-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= CONTACT ========= -->
+    <section id="contact" class="contact-section">
+      <div class="contact-left">
+        <h2>Got a project?<br />Let’s talk.</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+        <a href="mailto:Ashutosh1085@gmail.com" class="email-link">
+          Ashutosh1085@gmail.com <span class="arrow">→</span>
+        </a>
+      </div>
+
+      <div class="contact-right">
+        <h2>Estimate your project?<br />Let me know here.</h2>
+        <form>
+          <input type="text" placeholder="What's your name?" required />
+          <input type="email" placeholder="Your fancy email" required />
+          <textarea placeholder="Tell me about your project" required></textarea>
+          <button type="submit" class="submit-icon">→</button>
+        </form>
+      </div>
+
+      <div class="footer-note">
+  <div class="logo">&#128515;</div> <!-- Swap with your SVG/img if desired -->
+  <p><strong>Thanks for scrolling,</strong> that’s all folks.</p>
+</div>
+
+    </section>
+
+    <!-- ========= FOOTER ========= -->
+    <footer>
+      <p>&copy; 2025 Ashutosh Jha. All rights reserved.</p>
+    </footer>
+  </div> <!-- /.container -->
+</body>
+</html>
